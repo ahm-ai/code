@@ -1,0 +1,23 @@
+
+
+.carousel-caption {
+	position: absolute;
+    left: 0;
+    width: 50%;
+    top: 2%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.carousel-caption h3{
+	font-size: 5em;
+
+}
+
+.btn-outline-success {
+    color: white;
+    background-image: none;
+    background-color: transparent;
+    border-color: whitesmoke;
+    border-radius: 30px;
+}
