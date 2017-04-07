@@ -21,3 +21,130 @@
     border-color: whitesmoke;
     border-radius: 30px;
 }
+
+
+
+/*color: #282d33;*/
+
+.background{
+    background-color:  #282d33;
+    color: white;
+    padding: 70px 0px;
+
+}
+
+.background i{
+    font-size: 2em;
+}
+
+.background h3{
+    font-weight: bold;
+}
+
+
+/* Bootstrap Cards*/
+
+.zoom{
+    position: relative;
+    overflow: hidden;
+}
+
+.zoom:hover img{
+    transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+}
+
+.zoom img{
+    transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #282d33;
+    border-color: transparent;
+    border-radius: 30px;
+}
+
+.spacer{
+    padding: 70px 0px;
+}
+
+
+/* Tabs */
+
+.spacer2{
+    padding: 70px 0px;
+    border-top: solid 2px whitesmoke;
+    margin-top: 70px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: white;
+    background-color: #282d33;
+    border-color: #ddd #ddd #fff;
+}
+
+.tab-pane {
+    margin-top: 30px;
+}
+
+
+@font-face {
+  font-family: 'simple-line-icons';
+  src:  url('../fonts/simple-line-icons.eot?qc96q9');
+  src:  url('../fonts/simple-line-icons.eot?qc96q9#iefix') format('embedded-opentype'),
+    url('../fonts/simple-line-icons.ttf?qc96q9') format('truetype'),
+    url('../fonts/simple-line-icons.woff?qc96q9') format('woff'),
+    url('../fonts/simple-line-icons.svg?qc96q9#simple-line-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'simple-line-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-screen-tablet:before {
+  content: "\e00f";
+}
+.icon-screen-desktop:before {
+  content: "\e011";
+}
+.icon-equalizer:before {
+  content: "\e06c";
+}
+.icon-heart-o:before {
+  content: "\e900";
+}
+.icon-google:before {
+  content: "\ea88";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
+
